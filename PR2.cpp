@@ -11,7 +11,7 @@ double Pi = 4 * atan(1.0); // число пі
        double z2; // результат обчислення 2-го виразу
        cout << "a = "; cin >> a;
        
-       z1 = 2*(sin(3*Pi-2*a)*sin(3*Pi-2*a))*(cos(5*Pi+2*a)*cos(5*Pi+2*a));
+    //    z1 = 2*(sin(3*Pi-2*a)*sin(3*Pi-2*a))*(cos(5*Pi+2*a)*cos(5*Pi+2*a));
        z2 = 1.0/4-1.0/4*sin((5.0/2)*Pi-8*a);
        
        cout << endl;

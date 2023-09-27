@@ -13,6 +13,8 @@ double Pi = 4 * atan(1.0); // число пі
        
     //    z1 = 2*(sin(3*Pi-2*a)*sin(3*Pi-2*a))*(cos(5*Pi+2*a)*cos(5*Pi+2*a));
     //    z2 = 1.0/4-1.0/4*sin((5.0/2)*Pi-8*a);
+       z1 = 2*(sin(3*Pi-2*a)*sin(3*Pi-2*a))*(cos(5*Pi+2*a)*cos(5*Pi+2*a));
+       z2 = 1.0/4-1.0/4*sin((5.0/2)*Pi-8*a);
        
        cout << endl;
        cout << "z1 = " << z1 << endl;
